@@ -1,0 +1,41 @@
+/* NavBAr */
+#navbar_nav {
+    background-color: #407BFF !important;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.svg_q {
+    width: 400px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.container_form {
+    height:250px;
+    width: 300px;
+    padding: 30px;
+    margin-top: 250px;
+    margin-left: 350px;
+
+}
+
+input {
+    width: 350px;
+}
+
+button {
+    width: 150px;
+}

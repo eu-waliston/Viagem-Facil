@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagem Facil</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 
     <!--Bootstap Css-->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_nav">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="navbar_nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="assets/images/Group 3.png" id="logo_nav"> </a>
+            <a class="navbar-brand" href="#"> <img src="assets/images/logo1.png" id="logo_nav"> </a>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,26 +28,158 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">recursos</a>
+                        <a class="nav-link" href="#inicio">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#recursos">recursos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">preços</a>
+                        <a class="nav-link" href="pricing.html">planos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">entrar</a>
+                        <a class="nav-link" href="login.html">entrar</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">cadastre-se de graça</a>
+                        <a class="nav-link" href="cadastro.html">cadastre-se de graça</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    
+    <div class="page_one" id="inicio">
+        <div class="container">
+            <h2 class="h1_page_one">Uma viagem facil, A qualquer momento</h2>
+            <p class="p_page_one">
+                Imagine um lugar onde você pode armazenar todos os detalhes de sua vigem como horários, vôos, <br>
+                hotéis e ter constantes atualizações referente a sua viagem, e o melhor, <br> tudo de maneira fácil
+                simples e rápida. Faça igual a milhões de brasileiros e comece a usar <br> nossa plataforma hoje mesmo!
+            </p>
+
+            <img class="img_page_one" src="assets/images/Group 4.png">
+        </div>
+    </div>
+
+    <div class="page_two" id="recursos">
+        <div class="container">
+            <div class="content1">
+                <h2 class="h2_page_two">
+                    Você cuida das reservas <br> e passagens, após isso e com a gente.
+                </h2>
+
+                <p class="p_page_two">
+
+                    Ao contrário de outros aplicativos de viagem. O Viagem Fácil pode <br> organizar seus planos de
+                    viagem, independentemente de onde você <br> reservar. Basta encaminhar seu e-mail de confirmação
+                    para <br> <span>viagem@facil.com</span> e em questão de segundos nossa plataforma <br> criará um
+                    itinerário mestre para cada viagem
+                </p>
+
+                <button class="btn btn-primary">venha conhecer</button>
+
+                <img class="img_page_two" src="assets/images/Group 6.png">
+            </div>
+
+            <hr class="hr">
+
+            <div class="content2">
+                <img class="img_page_two2" src="assets/images/Group 7.png">
+
+                <h2 class="h2_page_two2">
+                    Poderosos lembretes e alarmes <br> para você nunca perder sua <br> viagem
+                </h2>
+
+                <p class="p_page_two2">
+                    Personalize da maneira que você quiser e com seus toques <br> favoritos, e tenha na tela suas
+                    notificações para nunca mais <br> perder seu vôo.
+                </p>
+
+                <button class="btn btn-primary btn2">venha conhecer</button>
+            </div>
+            <hr class="hr2">
+
+            <div class="content3">
+                <h2 class="h1_page_two3">
+                    Saiba sempre onde ir e quando!
+                </h2>
+
+                <p class="p_page_two3">
+                    Precisa se lembrar que horas o avião sairá do aeroporto, ou está <br> viajando pela primeira vez e
+                    não conhece o lugar muito bem ? não <br> se preocupe, nosso aplicativo será seu maior companheiro
+                    <br> nessas horas.
+                </p>
+
+                <button class="btn btn-primary btn3">venha conhecer</button>
+
+                <img src="assets/images/Group 8.png" class="img_page_twp3">
+            </div>
+        </div>
+    </div>
+
+    <div class="page_three">
+        <h2 class="page_three_h2">
+            E então o que você está esperando? Venha para o viagem<br> fácil e deixe que ele cuide de sua viagem também!
+        </h2>
+
+        <p class="page_three_p">
+            Muitas viagens, pouco tempo. Deixe o nosso aplicativo <br> se preocupar com todos essses pequenos detalhes e
+            apenas curta sua viagens
+        </p>
+
+        <button class="btn btn-primary btn4">crie sua conta grátis</button>
+
+        <img src="assets/images/Group 20.png" id="img_page_three1">
+        <img src="assets/images/Departing-bro 1.png" class="img_page_three2">
+    </div>
+
+    <div class="footer">
+
+        <img src="assets/images/Group 13.png" alt="" class="footer_img">
+
+        <div class="lista1">
+            <ul>
+                <h5 style="cursor: pointer;">Produtos</h5>
+                <li>Viagem Facil Free</li>
+                <li>Viagem Facil</li>
+                <li>Viagem Facil Pro</li>
+                <li>Viagem Facil para equipes</li>
+                <li>WebDev API's</li>
+                <li>Support</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+        <div class="lista2">
+            <ul>
+                <h5 style="cursor: pointer;">Novidades & Recursos</h5>
+                <li>Blog</li>
+                <li>Press</li>
+                <li>Trabalhos</li>
+                <li>Area do usuario</li>
+                <li>Politica de privacidade</li>
+                <li>Segurança</li>
+                <li>Politica de Cookies</li>
+            </ul>
+        </div>
+
+
+        <hr class="hr_footer">
+
+
+        <div class="links_footer">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-twitter"></i>
+        </div>
+
+        <p class="footer_p">
+            &copy;<span>Viagem Facil</span> Todos os direitos reservados
+        </p>
+    </div>
+    </div>
     <!--Bootstrap JS-->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
