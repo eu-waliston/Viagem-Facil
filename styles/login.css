@@ -19,23 +19,20 @@
 .svg_q {
     width: 400px;
     float: right;
-    margin-top: 50px;
+    margin-top: 160px;
     margin-right: 100px;
 }
 
-.container_form {
-    height:250px;
-    width: 300px;
-    padding: 30px;
-    margin-top: 250px;
-    margin-left: 350px;
+.row {
+    position: relative;
+    top: 230px;
+    left: 350px;
 
 }
 
-input {
-    width: 350px;
-}
-
-button {
-    width: 150px;
+h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: #407BFF;
 }
