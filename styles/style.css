@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 
 }
@@ -14,6 +14,7 @@ button {
     height: 50px;
 
 }
+
 /* NavBAr */
 #navbar_nav {
     background-color: #407BFF !important;
@@ -45,7 +46,7 @@ button {
     position: relative;
     top: 130px;
     font-size: 40px;
-    
+
     font-weight: bold;
 }
 
@@ -83,7 +84,7 @@ span {
     font-weight: bold;
 }
 
-.img_page_two{
+.img_page_two {
     float: right !important;
     position: relative !important;
     top: -100px !important;
@@ -100,19 +101,22 @@ span {
     top: 300px;
     left: 200px;
     border: 1px solid black;
-    
+
 }
+
 .h2_page_two2 {
     float: right;
     position: relative;
     left: -200px;
 }
+
 .p_page_two2 {
     float: right;
     position: relative;
     top: 130px;
     left: 225px;
 }
+
 .btn2 {
     float: right;
     position: relative;
@@ -158,7 +162,7 @@ span {
 }
 
 /*pagina 3 */
-.page_three  {
+.page_three {
     background-color: #B7D6EC;
     height: 100vh;
 }
@@ -199,12 +203,14 @@ span {
 .footer {
     height: 90vh;
 }
+
 .foter_logo {
     position: relative;
     top: 40px;
     right: 50px;
     float: right;
 }
+
 .footer_img {
     position: relative;
     top: 140px;
@@ -255,4 +261,426 @@ li {
     text-align: center;
     margin-top: 55px;
     margin-left: 10px;
+}
+
+/* media queries */
+
+@media(min-width: 1500px) {
+
+    button {
+        padding: 35px;
+        height: 40px;
+
+    }
+
+    /* Page one */
+    .h1_page_one {
+        font-size: 30px;
+
+
+    }
+
+    .p_page_one {
+
+        font-size: 18px;
+    }
+
+    .img_page_one {
+        width: 550px;
+        position: relative;
+        top: 188px;
+        left: 380px;
+    }
+
+    /* page Two */
+
+    .page_two {
+        height: 200vh;
+    }
+
+    .h2_page_two {
+        position: relative !important;
+        top: 60px !important;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    .p_page_two {
+        position: relative !important;
+        top: 80px !important;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    span {
+        color: #000;
+        font-weight: bold;
+    }
+
+    .img_page_two {
+        float: right !important;
+        position: relative !important;
+        top: -150px !important;
+        margin-right: 100px !important;
+        width: 380px;
+    }
+
+    .btn-primary {
+        position: relative;
+        top: 100px;
+        margin-left: 50px;
+    }
+
+    .hr {
+        position: relative;
+        top: 250px;
+        left: 200px;
+        border: 1px solid black;
+
+    }
+
+
+    .h2_page_two2 {
+        position: relative;
+        left: -200px;
+        font-size: -18px;
+    }
+
+    .p_page_two2 {
+        position: relative;
+        top: 130px;
+        left: 225px;
+        font-size: -15px;
+    }
+
+    .btn2 {
+        position: relative;
+        top: 230px;
+        left: 365px;
+    }
+
+    .img_page_two2 {
+        position: relative;
+        top: 300px;
+        width: 380px;
+    }
+
+    .hr2 {
+        border: 1px solid black;
+        position: relative;
+        top: 300px;
+        left: 215px;
+        width: 750px;
+    }
+
+
+    .h1_page_two3 {
+        position: relative;
+        top: 400px;
+        font-size: 40px;
+    }
+
+    .p_page_two3 {
+        position: relative;
+        top: 420px;
+        font-size: 16px;
+    }
+
+    .btn3 {
+        position: relative;
+        top: 450px;
+        left: -55px;
+    }
+
+    .img_page_twp3 {
+        float: right;
+        position: relative;
+        top: 120px;
+        right: 80px;
+    }
+
+
+    /*pagina 3 */
+
+    .page_three_h2 {
+        position: relative;
+        text-align: center;
+        top: 30px;
+    }
+
+    .page_three_p {
+        position: relative;
+        text-align: center;
+        top: 30px;
+        font-size: 18px;
+    }
+
+    .btn4 {
+        position: relative;
+        top: -150px;
+        left: 590px;
+        width: 250px !important;
+    }
+
+    #img_page_three1 {
+        position: relative;
+        top: 150px;
+        left: -150px;
+    }
+
+    .img_page_three2 {
+        position: relative;
+        top: 50px;
+    }
+
+    /* footer */
+
+
+    .footer_img {
+        position: relative;
+        top: 140px;
+        left: 60px;
+        width: 500px;
+    }
+
+    .lista1 {
+        position: relative;
+        margin-left: 800px;
+        margin-top: -150px;
+    }
+
+    .lista2 {
+        position: relative;
+        margin-left: 1050px;
+        margin-top: -215px;
+    }
+
+
+    li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+
+    .links_footer {
+        display: grid;
+        grid-template-columns: repeat(4, 50px);
+        position: relative;
+        margin-left: 660px;
+        margin-top: 250px;
+    }
+
+    .bi {
+        font-size: 30px;
+        color: #407BFF !important;
+
+    }
+
+    .footer_p {
+        position: relative;
+        text-align: center;
+        margin-top: 55px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 500px) {
+
+
+
+    button {
+        padding: 35px;
+        height: 50px;
+
+    }
+
+    .nav-link:hover {
+        color: #c9c5c5 !important;
+        border: none !important;
+        border-radius: 5px;
+    }
+
+    .h1_page_one {
+        text-align: center;
+        position: relative;
+        top: 130px;
+        font-size: 25px;
+
+        font-weight: bold;
+    }
+
+    .p_page_one {
+        text-align: center;
+        position: relative;
+        top: 140px;
+        font-size: 15px;
+    }
+
+    .img_page_one {
+        position: relative;
+        top: 220px;
+        margin-left: -150px;
+        width: 350px;
+    }
+
+
+
+
+
+    .h2_page_two {
+        position: relative !important;
+        top: 100px !important;
+        font-weight: bold;
+        font-size: 38px;
+    }
+
+    .p_page_two {
+        position: relative !important;
+        top: 110px !important;
+        font-size: 15px;
+    }
+
+
+    .img_page_two {
+        float: right !important;
+        position: relative !important;
+        margin-top: 200px !important;
+        margin-right: 50px !important;
+        width: 350px;
+    }
+
+    .btn-primary {
+        visibility: hidden !important;
+    }
+
+    .h2_page_two2 {
+        visibility: hidden !important;
+    }
+
+    .p_page_two2 {
+        visibility: hidden !important;
+    }
+
+    .btn2 {
+        visibility: hidden !important;
+    }
+
+    .img_page_two2 {
+        visibility: hidden !important;
+    }
+
+
+
+    .h1_page_two3 {
+        position: relative;
+        top: -600px;
+        font-size: 38px;
+    }
+
+    .p_page_two3 {
+        position: relative;
+        top: -580px;
+        font-size: 15px;
+    }
+
+    .btn3 {
+        visibility: hidden !important;
+    }
+
+    .img_page_twp3 {
+        float: right;
+        position: relative;
+        top: -620px;
+        width: 350px;
+        left: -40px;
+    }
+
+    /*pagina 3 */
+
+    .page_three_h2 {
+        position: relative;
+        font-size: 20px;
+    }
+
+    .page_three_p {
+        position: relative;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .btn4 {
+        visibility: hidden !important;
+    }
+
+    #img_page_three1 {
+        visibility: hidden !important;
+    }
+
+    .img_page_three2 {
+        position: relative;
+        top: -760px;
+        width: 450px;
+    }
+
+    .some {
+        visibility: hidden !important;
+    }
+
+    /* footer */
+
+
+    .footer_img {
+        position: relative;
+        top: 340px;
+        left: 60px;
+        width: 350px;
+    }
+
+    .lista1 {
+        position: relative;
+        margin-left: -20px;
+        margin-top: -200px;
+    }
+
+    .lista2 {
+        position: relative;
+        margin-left: 190px;
+        margin-top: -215px;
+    }
+
+
+    li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .hr_footer {
+        position: relative;
+        top: 200px;
+        width: 950px;
+        left: 150px;
+    }
+
+
+    .links_footer {
+        display: grid;
+        grid-template-columns: repeat(4, 50px);
+        position: relative;
+        margin-left: 550px;
+        margin-top: 250px;
+    }
+
+    .bi {
+        visibility:  hidden !important;
+    }
+
+    .footer_p {
+        position: relative;
+        text-align: center;
+        margin-top: 55px;
+        margin-left: 10px;
+    }
+
+
 }

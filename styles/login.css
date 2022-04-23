@@ -36,3 +36,20 @@ h1 {
     top: 50px;
     color: #407BFF;
 }
+
+@media(min-width: 1500px) {
+    .row {
+        position: relative;
+        top: 230px;
+        left: 450px;
+    
+    } 
+
+    .svg_q {
+        width: 400px;
+        float: right;
+        margin-top: 120px;
+        margin-right: 150px;
+    }
+    
+}
